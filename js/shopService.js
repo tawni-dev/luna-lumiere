@@ -18,7 +18,7 @@ var items = [
       image: 'images/crystal.jpg'
     },
     {
-      name: 'Sea Goddess',
+      name: 'Sea Queen',
       description: 'A single quartz crystal wrapped in faux leather cord, with an abalone shell bead.',
       image: 'images/teal.jpg'
     },
@@ -26,5 +26,15 @@ var items = [
       name: 'Crones Hand',
       description: 'A single rainbow quartz, cradled in a skeleton hand.',
       image: 'images/rainbow.jpg'
+    },
+    {
+      name: 'Sly Fox',
+      description: 'A simple pendant a cute fox.',
+      image: 'images/fox.jpg'
+    },
+    {
+      name: 'Picasso',
+      description: 'A wire wrapped picasso stone cabochon.',
+      image: 'images/black.jpg'
     }
   ];

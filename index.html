@@ -6,7 +6,6 @@
     <title>Luna Lumiere</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./compiled/styles/vendor.css">
     <link rel="stylesheet" href="./compiled/styles/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Poiret+One" rel="stylesheet">
 
@@ -20,8 +19,8 @@
 					<button class="toggle-nav btn btn-link" ng-click="toggleMenu()">
 						<i class="fa fa-times"></i>
 					</button>
-					<h2>My Menu</h2>
 					<ul>
+            <li><a ng-click="toggleMenu()" ui-sref="home">Home</a></li>
             <li><a ng-click="toggleMenu()" ui-sref="shop">Shop</a></li>
             <li><a ng-click="toggleMenu()" ui-sref="about">About</a></li>
 					</ul>
@@ -29,6 +28,7 @@
         <div class="site-content">
           <div class="navbar-header">
             <button class="toggle-nav btn btn-lg btn-link" ng-click="toggleMenu()"><i class="fa fa-bars"></i></button>
+            <div class ="menu">Menu</div>
           </div>
           <div ui-view class='content'>
 

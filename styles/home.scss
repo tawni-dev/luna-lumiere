@@ -6,11 +6,29 @@
   height: 100%;
   width: 100%;
   overflow: hidden;
+  font-family: 'Dancing Script';
+  color: white;
+  display: flex;
+}
+
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  padding: 50px;
+  }
+
+#home-shop {
+  background-color: white;
+  color:  rgb(76, 152, 129);
+  font-family: 'Dancing Script';
 }
 
 @media only screen and (min-width: 400px) {
     .home {
         background-image: url('../../images/home.jpg');
-        background-position: 30%, 50%;
+        background-position: 50%, 40%;
     }
 }

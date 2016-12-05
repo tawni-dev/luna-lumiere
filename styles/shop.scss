@@ -1,12 +1,14 @@
 .shop {
-  background-image: url('../../images/pink.jpg');
-  background-size: cover;
+  background-image: url('../../images/upfeathers.png');
+  background-size: auto;
+  background-repeat: repeat;
   background-position: center center;
   background-attachment: scroll;
   float: right;
   height: 100%;
   width: 100%;
   padding: 84px 1em 15px;
+  overflow: scroll;
 }
 
 .shop-item {
@@ -14,7 +16,7 @@
 
   .card-content {
     height: 350px;
-    background-color: rgba(255, 255, 255, 0.85);
+    background-color: rgba(205, 201, 201, 0.77);
     border-radius: 3px;
     padding: 15px;
   }
@@ -34,4 +36,18 @@
   text-align: center;
   font-family: 'Dancing Script';
   padding: 10px;
+}
+
+@media only screen and (min-width: 400px) {
+
+  .row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: scroll;
+  }
+    .card-content {
+      font-size: 1.3rem;
+
+    }
 }

@@ -1,5 +1,6 @@
 $primaryTextColor: black;
 $hoverColor: gray;
+$secondaryColor: rgb(76, 152, 129);
 
 #site-wrapper {
   position: relative;
@@ -77,7 +78,11 @@ $hoverColor: gray;
   padding: 1em;
 
   .btn-link {
-    color: white;
+    color: $secondaryColor;
+  }
+  .menu {
+    text-align: center;
+    color: $secondaryColor;
   }
 }
 
@@ -91,59 +96,3 @@ $hoverColor: gray;
     display: none;
   }
 }
-
-/* Toggle Styles */
-// #sidebar-wrapper {
-//   position: relative;
-//   width: 20%;
-//   height: 100%;
-//   float: left;
-//   font-family: 'Poiret One', cursive;
-//   -webkit-transition: all 0.5s ease;
-//   -moz-transition: all 0.5s ease;
-//   -o-transition: all 0.5s ease;
-//   transition: all 0.5s ease;
-// }
-//
-// .sidebar-nav {
-//     position: absolute;
-//     top: 0;
-//     width: 100%;
-//     margin: 0;
-//     padding: 0;
-//     list-style: none;
-// }
-//
-//
-//
-// .sidebar-nav li a:hover {
-//     text-decoration: none;
-//     color: $primaryTextColor;
-//     background: $hoverColor;
-// }
-//
-// .sidebar-nav li a:active,
-// .sidebar-nav li a:focus {
-//     text-decoration: none;
-// }
-//
-// .sidebar-nav > .sidebar-brand {
-//     height: 65px;
-//     font-size: 40px;
-//     line-height: 60px;
-//     font-family: 'Dancing Script';
-// }
-//
-// .sidebar-nav > .sidebar-brand a {
-//     color: $primaryTextColor;
-// }
-//
-// .sidebar-nav > .sidebar-brand a:hover {
-//     color: $primaryTextColor;
-//     background: none;
-// }
-//
-// .sidebar-nav > .sidebar-links {
-//   font-size: 25px;
-//   text-align: justify;
-// }

@@ -1,0 +1,33 @@
+.about {
+  background-image: url("../../images/flowers.jpg");
+  background-size: cover;
+  background-position: center center;
+  float: right;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-body {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.89);
+  height: 40%;
+  width: 50%;
+  border-radius: 5px;
+}
+
+h2 {
+  padding: 20px;
+  color: rgb(76, 152, 129);
+  font-family: 'Dancing Script';
+}
+
+.about-text {
+  font-size: 14px;
+  padding: 30px;
+}
