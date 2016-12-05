@@ -1,0 +1,16 @@
+.home {
+  background-image: url("../../images/home.jpg");
+  background-size: cover;
+  background-position: center center;
+  float: right;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 400px) {
+    .home {
+        background-image: url('../../images/home.jpg');
+        background-position: 30%, 50%;
+    }
+}

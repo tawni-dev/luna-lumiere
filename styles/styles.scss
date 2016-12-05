@@ -1,0 +1,11 @@
+body, html, section, .site-content, .content {
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-size: 14px;
+}
+
+div, ul, li {
+  box-sizing: border-box;
+}
