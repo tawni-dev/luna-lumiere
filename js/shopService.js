@@ -30,11 +30,11 @@ var items = [
     {
       name: 'Sly Fox',
       description: 'A simple pendant a cute fox.',
-      image: 'images/fox.jpg'
+      image: 'images/fox.JPG'
     },
     {
       name: 'Picasso',
       description: 'A wire wrapped picasso stone cabochon.',
-      image: 'images/black.jpg'
+      image: 'images/black.JPG'
     }
   ];
