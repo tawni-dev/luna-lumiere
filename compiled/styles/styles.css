@@ -1,0 +1,187 @@
+.about {
+  background-image: url("../../images/flowers.jpg");
+  background-size: cover;
+  background-position: center center;
+  float: right;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.about-body {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.89);
+  height: 40%;
+  width: 50%;
+  border-radius: 5px; }
+
+h2 {
+  padding: 20px;
+  color: #4c9881;
+  font-family: 'Dancing Script'; }
+
+.about-text {
+  font-size: 14px;
+  padding: 30px; }
+
+.home {
+  background-image: url("../../images/home.jpg");
+  background-size: cover;
+  background-position: center center;
+  float: right;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  font-family: 'Dancing Script';
+  color: white;
+  display: flex; }
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  padding: 50px; }
+
+#home-shop {
+  background-color: white;
+  color: #4c9881;
+  font-family: 'Dancing Script'; }
+
+@media only screen and (min-width: 400px) {
+  .home {
+    background-image: url("../../images/home.jpg");
+    background-position: 50%, 40%; } }
+
+#site-wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%; }
+
+#site-canvas {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateX(0);
+  transform: translate3d(0, 0, 0);
+  transition: 300ms ease all;
+  backface-visibility: hidden; }
+
+#site-menu {
+  width: 300px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: -300px;
+  background: white;
+  color: black;
+  overflow-x: hidden;
+  overflow-y: auto;
+  font-family: 'Poiret One', cursive; }
+
+#site-menu .toggle-nav {
+  display: inline-block;
+  margin: 15px 0 15px 15px;
+  padding-left: 0; }
+
+#site-menu h2 {
+  margin: 0 0 15px 15px;
+  font-size: 40px; }
+
+#site-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%; }
+
+#site-menu ul li {
+  text-indent: 20px;
+  line-height: 40px; }
+
+#site-menu ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 25px; }
+
+#site-menu ul li a:hover {
+  text-decoration: none;
+  color: black;
+  background: gray; }
+
+#site-menu ul li a:active,
+#site-menu ul li a:focus {
+  text-decoration: none; }
+
+.navbar-header {
+  position: absolute;
+  padding: 1em; }
+  .navbar-header .btn-link {
+    color: #4c9881; }
+  .navbar-header .menu {
+    text-align: center;
+    color: #4c9881; }
+
+.show-nav #site-canvas {
+  transform: translateX(300px);
+  transform: translate3d(300px, 0, 0); }
+
+.show-nav .navbar-header .btn-icon {
+  display: none; }
+
+.shop {
+  background-image: url("../../images/upfeathers.png");
+  background-size: auto;
+  background-repeat: repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  float: right;
+  height: 100%;
+  width: 100%;
+  padding: 84px 1em 15px;
+  overflow: scroll; }
+
+.shop-item {
+  margin-bottom: 30px; }
+  .shop-item .card-content {
+    height: 350px;
+    background-color: rgba(205, 201, 201, 0.77);
+    border-radius: 3px;
+    padding: 15px; }
+  .shop-item .card-photo {
+    margin: 0 0 10px;
+    width: 100%;
+    height: 150px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+
+.page-header {
+  background-color: white;
+  text-align: center;
+  font-family: 'Dancing Script';
+  padding: 10px; }
+
+@media only screen and (min-width: 400px) {
+  .row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: scroll; }
+  .card-content {
+    font-size: 1.3rem; } }
+
+body, html, section, .site-content, .content {
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-size: 14px; }
+
+div, ul, li {
+  box-sizing: border-box; }
